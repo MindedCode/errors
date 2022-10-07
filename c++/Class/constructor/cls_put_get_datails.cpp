@@ -30,6 +30,9 @@ int main()
     return 0;
 }
 
+
+**/Error is:
+p function declare the two times/**
 output of the program:
 
 enter 
