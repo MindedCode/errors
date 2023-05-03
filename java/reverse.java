@@ -85,3 +85,25 @@ Main.java:73: error: incompatible types: unexpected return value
 	    return reverseRecursionI(n, r);
 	                            ^
 1 error
+
+
+
+
+// solve little
+//Help of Recursion II
+	
+	static void reverseRecursionII(int n){
+	    int digit=0;
+	    if(n==0){
+	        
+	        return;
+	    } 
+	    
+	    digit = n%10;       // digit = remainder
+	    System.out.print(digit);
+	    
+	    reverseRecursionII(n/10);
+	   // System.out.print("After reversed number : ");       //occur very errors thread
+	}
+	
+
